@@ -2,8 +2,6 @@ defmodule RocketpayWeb.ErrorView do
   use RocketpayWeb, :view
   import Ecto.Changeset, only: [traverse_errors: 2]
 
-  alias Ecto.Changeset
-
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.
   # def render("500.json", _assigns) do
